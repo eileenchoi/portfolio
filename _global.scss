@@ -1,0 +1,37 @@
+
+//Variables
+
+//Font Variables
+$h1-size: 3em;
+$h2-size: 2em;
+$p-size: 1.3em;
+
+$headingFont: 'Roboto', sans-serif;
+$fontStack: 'Raleway', sans-serif;
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+h1{
+    letter-spacing: 1px;
+}
+h2{
+    letter-spacing: 1px;
+}
+p{
+    letter-spacing: 1px;
+}
+
+button{
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border: none;
+    margin-top: 20px;
+    font-family: $font-stack;
+}
