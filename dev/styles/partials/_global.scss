@@ -9,29 +9,34 @@ $p-size: 1.3em;
 $headingFont: 'Roboto', sans-serif;
 $fontStack: 'Raleway', sans-serif;
 
+
 .wrapper{
+    // border: 5px dotted green;
     width: 80%;
     margin: 0 auto;
-    padding: 100px;
+    display: flex;
+    letter-spacing: 1px;
+
 }
 
-h1{
-    letter-spacing: 1px;
+h1, h2, h3{
+    font-family: $headingFont;
 }
-h2{
-    letter-spacing: 1px;
-}
+
 p{
-    letter-spacing: 1px;
+    font-family: $fontStack;
+    color: grey;
+    font-size: 20px;
 }
 
 button{
-    width: 140px;
-    padding: 10px;
+    width: 170px;
+    padding: 15px;
     text-align: center;
     text-transform: capitalize;
     font-weight: bolder;
     border: none;
+    border-radius: none;
     margin-top: 20px;
-    font-family: $font-stack;
+    font-family: $fontStack;
 }
