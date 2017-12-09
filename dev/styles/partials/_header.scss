@@ -20,12 +20,31 @@ header{
         }
 
         button{
-            background:none;
-            border: 1px solid white;
+            width: 220px;
+            padding: 15px;
+            margin-top: 20px;
+            font-family: $fontStack;
+            border: 2px solid white;
             color: white;
+            background: none;
+                    
         }
-        
+                
+        button:active{
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+                    background-color: white;
+                    color:black;
+                
+                        
+                }
 
+        button:focus{
+            border: 1px solid white;
+            outline:none;
+        }
+                
 
 }
 

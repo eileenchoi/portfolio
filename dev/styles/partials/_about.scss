@@ -19,17 +19,23 @@
             padding-left: 20px;
         }
        
+        button{
+            border: 1px solid black;
+            margin-top: 50px;
+            width: 30%;
+            padding: 15px;
+                &:active{
+                    background-color: black;
+                    color: white;
+                }
+            }
+       
 }
 
 .aboutMe{
     img{
-        position: relative;
         margin-right: 200px;
         }
-    button{
-        border: 1px solid black;
-        margin-top: 50px;
-    }   
 }
     
 

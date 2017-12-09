@@ -37,13 +37,29 @@ p{
 }
 
 button{
-    width: 170px;
-    padding: 15px;
     text-align: center;
     text-transform: capitalize;
     font-weight: bolder;
     border: none;
     border-radius: none;
-    margin-top: 20px;
-    font-family: $fontStack;
 }
+
+ button:active{
+            border: none;
+            outline: none;
+            box-shadow: none;
+                
+        }
+
+button:focus{
+    border: 1px solid white;
+    outline:none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
