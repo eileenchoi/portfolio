@@ -21,11 +21,22 @@
 
 <header>
     <div class="wrapper">
+        <div class="navBar">
+            <div class="logo">
+                <img src="../../assets/lightbulbWhite2.png" alt="">
+            </div>
+            <ul>
+                <li>Contact</li>
+                <li>Latest Works</li>
+                <li>About Me</li>
+                <li>Where am I</li>
+            </ul>
+        </div>
         <div class="headerContent">
             <h2>Hi, I'm Eileen</h2>
             <h1>Web Creator and Developer</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia temporibus ex unde ipsum dolore tempora doloremque repudiandae architecto deserunt corrupti nam ut asperiores ratione culpa, consequuntur ab magni harum quidem.</p>
-            <button>Get in Touch</button>
+            <button><a href="#contact">Get in Touch</a></button>
         </div> <!--headerContent-->
     </div> <!--wrapper-->
 </header>
@@ -51,8 +62,7 @@
         </div>
     </section>
     <section class="aboutMe">
-        <div class="black">
-        </div>
+        
         <div class="wrapper">
             <div class="intro">
                 <h2>You build your business. I build your first impression.</h2>
@@ -62,45 +72,78 @@
             </div> <!--intro-->
             <img src= "assets/womanBG.jpg" alt="dark black and white photo of woman with her legs crossed in a chair">
         </div> <!--wrapper-->
+        <div class="blackCont">
+            <div class="black">
+            </div>
+        </div>
        
     </section> <!--aboutMe-->
     <section class="services">
-        <div class="wrapper">
-        <div class="coffee">
-            <img src="../../assets/coffee.jpg" alt="">
-        </div>
-            <div class="servicesOuter">
-                <div class="service webDev">
-                    <div class="servicesInner">
-                        <i class="fa fa-laptop" aria-hidden="true"></i>
-                        <h3>Web Development</h3>
+        <!-- <div class="wrapper"> -->
+            <div class="coffee">
+                <img src="../../assets/coffee2.jpg" alt="">
+                <div class="servicesOuter">
+                    <div class="service webDev">
+                        <div class="servicesInner">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                            <h3>Web Development</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi facilis perspiciatis veritatis !</p>
+                    </div> <!--service webDev-->
+                    <div class="service webDesign">
+                        <div class="servicesInner">
+                            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                            <h3>Web Design</h3>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum corporis temporibus corrupti dolorem hic modi .</p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quasi facilis perspiciatis veritatis !</p>
-                </div> <!--service webDev-->
-                <div class="service webDesign">
-                    <div class="servicesInner">
-                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
-                        <h3>Web Design</h3>
+                    <div class="service branding">
+                        <div class="servicesInner">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                            <h3>Branding</h3>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit impedit quibusdam dignissimos fugit saepe voluptas, eaque unde ?</p>
                     </div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat harum corporis temporibus corrupti dolorem hic modi .</p>
-                </div>
-                <div class="service branding">
-                    <div class="servicesInner">
-                        <i class="fa fa-diamond" aria-hidden="true"></i>
-                        <h3>Branding</h3>
-                    </div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit impedit quibusdam dignissimos fugit saepe voluptas, eaque unde ?</p>
-                </div>
-                <div class="service grow">
-                    <div class="servicesInner">
-                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                        <h3>Grow Your Business</h3>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, quisquam quaerat delectus in dicta !</p>
-                </div> <!--service-->
-            </div> <!--services-->
-        </div><!--wrapper-->
+                    <div class="service grow">
+                        <div class="servicesInner">
+                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                            <h3>Grow Your Business</h3>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, quisquam quaerat delectus in dicta !</p>
+                    </div> <!--service-->
+                </div> <!--services-->
+            </div>
+       <!-- </ div>wrapper -->
     </section> <!--services-->
+
+    <section class="latestWork">
+        <div class="wrapper">
+            <h2>Latest Work</h2>
+            <div class="latestWorkOuter">
+                <div class="piece piece1">
+                    <img src="../../assets/dandelion.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+                <div class="piece piece2">
+                    <img src="../../assets/dandelion.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+                <div class="piece piece3">
+                    <img src="../../assets/dandelion.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+                <div class="piece piece4">
+                    <img src="../../assets/dandelion.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+                <div class="piece piece5">
+                    <img src="../../assets/dandelion.jpg" alt="">
+                    <a href="#"></a>
+                </div>
+            </div> <!--latestWorkOuter-->
+        </div> <!--wrapper-->
+    </section>
+
 
     <section class="skills">
         <div class="wrapper">
@@ -121,46 +164,61 @@
                     <i class="devicon-bootstrap-plain"></i>
                 </div><!--skillsInner-->
             </div><!--skillsIcons-->
-        </div><!--wrapper-->
-    </section><!--skills-->
+        </div> <!--wrapper-->
+    </section> <!--skills-->
 
-    <section class="latestWork">
-        <h2>Latest Work</h2>
-        <div class="piece1">
-            <a href="#"></a>
-        </div>
-        <div class="piece2">
-            <a href="#"></a>
-        </div>
-    </section>
-    <section class="contact">
-        <form action="">
-            <input type="name" name="name" placeholder="Your Name">
-            <input type="email" required minlength="5" placeholder="Your Email">
-            <textarea name="message" id="userMessage" cols="30" rows="10" placeholder="Message"></textarea>
-            <input type="submit" value="Send Message">
-        </form>
-        <div class="contactInfo">
-            <i class="fa fa-mobile" aria-hidden="true"></i>
-            <p>647-705-7628</p>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            <p>contact@eileenchoi.com</p>
-            <i class="devicon-slack-plain"></i>
-            <p>eileen.choi</p>
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <h3>Where am I right now?</h3>
-            <p>2-2 Florence Wyle Lane</p>
-            <p>Toronto, ON</p>
-            <p>Canada</p>
-        </div>
-    </section>
+    <section class="contact" id="contact">
+        <div class="wrapper">
+            <h1>Get In Touch</h1>
+            <form action="">
+                <div class="emailCont">
+                    <input type="name" name="name" placeholder="Your Name">
+                    <input type="email" required minlength="5" placeholder="Your Email">
+                </div>
+                <textarea name="message" id="userMessage" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="submitEmail" type="submit" value="Send Message">
+            </form>
+            <div class="contactInfo">
+                <div class="info mobile">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+
+                    <p>647-705-7628</p>
+                </div>
+                <div class="info email">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>contact@eileenchoi.com</p>
+                </div>
+                <div class="info slack">
+                    <i class="devicon-slack-plain"></i>
+                    <p>eileen.choi</p>
+                </div>
+                <div class="info">
+                    <i class="fa fa-globe" aria-hidden="true"><h3>Where am I right now?</h3></i>
+                    
+                    <p>2-2 Florence Wyle Lane</p>
+                    <p>Toronto, ON</p>
+                    <p>Canada</p>
+                </div>
+            </div> <!--contactInfo-->
+        </div> <!--wrapper-->
+        </section>
     <footer>
-        
-        <i class="fa fa-skype" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <div class="wrapper">
+            <div class="icon">
+                <i class="fa fa-skype" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+    
+            <div class="icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+        </div>      
+        <p>&copy Copyright 2017 Eileen Choi</p>
     </footer>
 </body>
 </html>

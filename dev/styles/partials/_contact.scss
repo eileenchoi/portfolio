@@ -1,0 +1,83 @@
+
+
+.contact .wrapper{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 15px;
+    width: 400px;
+    margin: 30px;
+    border: 3px solid darkgrey;
+}
+
+textarea{
+    padding: 20px 15px;
+    margin: 30px;
+    border: 3px solid darkgrey;
+}
+
+.submitEmail{
+    margin: 0 auto;
+    color: white;
+    background: darkgrey;
+    border: 2px solid darkgrey;
+    border-radius: 0;
+}
+.contact{
+
+        h1{
+            margin: 30px;
+            font-family: $headingFont;
+            font-size: $h1-size;
+        }
+        h3{
+            margin:0;
+            font-size: 20px;
+                    margin: 0 0 0 15px;
+        }
+        p {
+            margin: 0;
+            letter-spacing: 1.5px;
+        }
+     
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.contactInfo{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+        i{
+            font-size: 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+           
+                
+        }
+}
+
+.emailCont{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}

@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: -80px;
         h2{
             padding-bottom: 10px;
         }
@@ -20,23 +21,31 @@
        
 }
 
-.aboutMe img{
-            position: relative;
-            margin-right: 200px;
+.aboutMe{
+    img{
+        position: relative;
+        margin-right: 200px;
         }
-
-button{
-    border: 1px solid black;
+    button{
+        border: 1px solid black;
+        margin-top: 50px;
+    }   
 }
+    
 
+
+
+.blackCont{
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    margin-top: -35%;
+}
 .black{
     border: 2px solid black;
-    width: 700px;
+    width: 660px;
     height: 600px;
     background: black;
-    position: absolute;
-    display: block;
-    margin-top: 150px;
-    left: 70%;
-    overflow: hidden;
+    
 }
