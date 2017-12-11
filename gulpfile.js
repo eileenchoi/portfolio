@@ -19,6 +19,7 @@ gulp.task('styles', () => {
 gulp.task('watch', () => {
     gulp.watch('./dev/styles/**/*.scss', ['styles']);
     gulp.watch('./dev/scripts/main.js', ['scripts']);
+    gulp.watch('dev/**/*.js', ['js']);
     gulp.watch('*.html', reload);
 });
 
@@ -30,6 +31,8 @@ gulp.task('scripts', () => {
         .pipe(gulp.dest('./public/scripts'))
         .pipe(reload({ stream: true }));
 });
+
+
 gulp.task('browser-sync', () => {
     browserSync.init({
         server: '.'

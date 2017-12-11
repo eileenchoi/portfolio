@@ -10,6 +10,10 @@ $h3-size: 1.6em;
 $headingFont: 'Roboto', sans-serif;
 $fontStack: 'Raleway', sans-serif;
 
+
+body{
+    background-attachment: fixed;
+}
 section{
     margin-top: 8%;
 }
@@ -33,7 +37,7 @@ h1, h2, h3{
 p{
     font-family: $fontStack;
     color: grey;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 button{
@@ -58,8 +62,11 @@ button:focus{
 
 a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 
+.fa{
+    font-size: 2em;
+}
 

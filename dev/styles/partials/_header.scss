@@ -7,6 +7,7 @@ header{
 
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
     height: 80vh;
     color: white;
@@ -53,7 +54,9 @@ header .wrapper{
     display: flex;
     flex-direction: column;
     height: 100vh;
+        
 }
+
 
 .logo{
     // border: 2px solid lightblue;
@@ -62,23 +65,28 @@ header .wrapper{
             // border: 2px solid cyan;
         }
 }
+
+
 .navBar{
     // border: 3px solid orange;
+
     width: 100%;
     display:flex;
     margin: 5% 0 9% 0;
         ul{
-            // border: 3px solid purple;
             display: flex;
             justify-content: space-around;
             align-items: center;
             width: 50%;
         }
-        li{
-            // border:3px solid green;
+        li {
             list-style: none;
+            
+        }
+        a{
             font-size: 1.4em;
             font-family: $headingFont;
+            color: white;
         }
 }
 .headerContent{
@@ -89,6 +97,7 @@ header .wrapper{
             width: 50%;
             margin-bottom: 3%;
         }
+        
 }
 
 h1{

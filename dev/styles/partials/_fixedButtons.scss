@@ -1,0 +1,16 @@
+
+.fixedButton{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    position: fixed;
+    bottom: 50%;
+    width: 100%;
+    
+        button{
+            display: flex;
+            color: black;
+            height: 40px;
+            border: 2px solid grey;
+        }
+}

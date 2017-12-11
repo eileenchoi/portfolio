@@ -130,6 +130,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  background-attachment: fixed; }
+
 section {
   margin-top: 8%; }
 
@@ -150,7 +153,7 @@ h1, h2, h3 {
 p {
   font-family: "Raleway", sans-serif;
   color: grey;
-  font-size: 20px; }
+  font-size: 1em; }
 
 button {
   text-align: center;
@@ -171,13 +174,17 @@ button:focus {
 
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1em;
   letter-spacing: 2px; }
+
+.fa {
+  font-size: 2em; }
 
 header {
   background-image: url("../../assets/moon2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100vw;
   height: 80vh;
   color: white;
@@ -246,9 +253,11 @@ header .wrapper {
             align-items: center;
     width: 50%; }
   .navBar li {
-    list-style: none;
+    list-style: none; }
+  .navBar a {
     font-size: 1.4em;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    color: white; }
 
 .headerContent {
   margin: auto; }
@@ -499,11 +508,31 @@ input {
   width: 400px;
   margin: 30px;
   border: 3px solid darkgrey; }
+  input:focus {
+    border: 3px solid black;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  input:active {
+    border: 3px solid black;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 textarea {
   padding: 20px 15px;
   margin: 30px;
   border: 3px solid darkgrey; }
+  textarea:focus {
+    border: 3px solid black;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  textarea:active {
+    border: 3px solid black;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 .submitEmail {
   margin: 0 auto;
@@ -583,7 +612,35 @@ form {
       -ms-flex-pack: justify;
           justify-content: space-between;
   -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 2px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+form {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px; }
+
+.backToTop {
+  border: 2px solid orange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
       align-content: center; }
+  .backToTop p {
+    font-size: 18px; }
+  .backToTop i {
+    color: black;
+    font-size: 60px;
+    font-weight: lighter; }
 
 footer {
   display: -webkit-box;
@@ -602,9 +659,6 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  footer .fa {
-    font-size: 25px;
-    color: white; }
   footer p {
     margin: 45px; }
 
@@ -629,3 +683,22 @@ footer .wrapper {
       -ms-flex-align: center;
           align-items: center;
   background: #515151; }
+
+.fixedButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  position: fixed;
+  bottom: 50%;
+  width: 100%; }
+  .fixedButton button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: black;
+    height: 40px;
+    border: 2px solid grey; }
