@@ -12,6 +12,7 @@ input{
     width: 400px;
     margin: 30px;
     border: 3px solid darkgrey;
+    font-size: $p-size;
         &:focus{
             border: 3px solid black;
             outline: none;
@@ -26,6 +27,7 @@ input{
 
 
 textarea{
+    font-size: $p-size;
     padding: 20px 15px;
     margin: 30px;
     border: 3px solid darkgrey;
@@ -57,7 +59,7 @@ textarea{
         }
         h3{
             margin:0;
-            font-size: 20px;
+            font-size: $h3-size;
                     margin: 0 0 0 15px;
         }
         p {
@@ -101,34 +103,33 @@ form{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    font-size: 2px;
     font-family: $fontStack;
-    font-size: 20px;
+    font-size: $h3-size;
     
     
 }
 
 form{
     font-family: $fontStack;
-    font-size: 20px;
+    font-size: $h3-size;
         
 }
 
 
-.backToTop{
-    border: 2px solid orange;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+// .backToTop{
+//     border: 2px solid orange;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-content: center;
     
-        p{
-            font-size: 18px;
-        }
-        i {
-            color: black;
-            font-size: 60px;
-            font-weight: lighter;
-        }
+//         p{
+//             font-size: $p-Size;
+//         }
+//         i {
+//             color: black;
+//             font-size: 60px;
+//             font-weight: lighter;
+//         }
 
-}
+// }

@@ -2,10 +2,10 @@
 //Variables
 
 //Font Variables
-$h1-size: 3em;
-$h2-size: 2em;
-$p-size: 1.3em;
-$h3-size: 1.6em;
+$h1-size: 3rem;
+$h2-size: 2.5rem;
+$h3-size: 2.0rem;
+$p-size: 1.3rem;
 
 $headingFont: 'Roboto', sans-serif;
 $fontStack: 'Raleway', sans-serif;
@@ -37,7 +37,7 @@ h1, h2, h3{
 p{
     font-family: $fontStack;
     color: grey;
-    font-size: 1em;
+    font-size: $p-size;
 }
 
 button{
@@ -62,11 +62,11 @@ button:focus{
 
 a{
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5rem;
     letter-spacing: 2px;
 }
 
 .fa{
-    font-size: 2em;
+    font-size: 2.0rem;
 }
 
