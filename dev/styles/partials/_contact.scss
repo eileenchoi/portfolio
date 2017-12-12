@@ -8,10 +8,10 @@
 }
 
 input{
-    padding: 15px;
-    width: 400px;
-    margin: 30px;
-    border: 3px solid darkgrey;
+    padding: 10px;
+    width: 275px;
+    margin: 0 15px 0 0px;
+    border: 2px solid darkgrey;
     font-size: $p-size;
         &:focus{
             border: 3px solid black;
@@ -25,12 +25,15 @@ input{
         }
 }
 
+.email{
+    margin: 0;
+}
 
 textarea{
     font-size: $p-size;
     padding: 20px 15px;
-    margin: 30px;
-    border: 3px solid darkgrey;
+    margin-top: 15px;
+    border: 2px solid darkgrey;
         &:focus{
             border: 3px solid black;
             outline: none;
@@ -44,7 +47,8 @@ textarea{
 }
 
 .submitEmail{
-    margin: 0 auto;
+    margin-top: 15px;
+    width: 100%;
     color: white;
     background: darkgrey;
     border: 2px solid darkgrey;
@@ -59,7 +63,7 @@ textarea{
         }
         h3{
             margin:0;
-            font-size: $h3-size;
+            font-size: 1rem;
                     margin: 0 0 0 15px;
         }
         p {
@@ -74,7 +78,6 @@ form{
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    padding: 50px;
 }
 .contactInfo{
     display: flex;
@@ -115,21 +118,3 @@ form{
         
 }
 
-
-// .backToTop{
-//     border: 2px solid orange;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-content: center;
-    
-//         p{
-//             font-size: $p-Size;
-//         }
-//         i {
-//             color: black;
-//             font-size: 60px;
-//             font-weight: lighter;
-//         }
-
-// }

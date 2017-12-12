@@ -4,12 +4,11 @@
 
 }
 
-.services{
-    margin: 13% 0;
-}
+
 .service{
     width: 50%;
-    padding: 60px;
+    padding: 20px;
+   
     
 }
 .servicesOuter{
@@ -24,11 +23,8 @@
 .coffee{
     display: flex;
     justify-content: space-between;
-        img{
-            margin-left: -5px;
-            overflow: hidden;
-        }
 }
+
 
 .servicesInner{
     display: inline-flex;
@@ -36,11 +32,11 @@
         h3{
             margin: 0;
             padding: 10px;
-            font-size: $h3-size;
+            font-size: 1.3rem;
 
         }
         i {
-            font-size: 3rem;
+            font-size: 2rem;
             margin-right: 16px;
         }
 }

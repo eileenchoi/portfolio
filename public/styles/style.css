@@ -134,7 +134,7 @@ body {
   background-attachment: fixed; }
 
 section {
-  margin-top: 8%; }
+  margin-top: 6.5%; }
 
 body {
   margin-top: -1px; }
@@ -153,7 +153,7 @@ h1, h2, h3 {
 p {
   font-family: "Raleway", sans-serif;
   color: grey;
-  font-size: 1.3rem; }
+  font-size: 0.9rem; }
 
 button {
   text-align: center;
@@ -174,11 +174,11 @@ button:focus {
 
 a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: 2px; }
 
 .fa {
-  font-size: 2.0rem; }
+  font-size: 1.3rem; }
 
 header {
   background-image: url("../../assets/moon2.jpg");
@@ -255,7 +255,6 @@ header .wrapper {
   .navBar li {
     list-style: none; }
   .navBar a {
-    font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
     color: white; }
 
@@ -266,11 +265,11 @@ header .wrapper {
     margin-bottom: 3%; }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 0; }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: 0;
   letter-spacing: 2px; }
 
@@ -310,19 +309,19 @@ h2 {
       color: white; }
 
 .aboutMe img {
-  margin-right: 200px; }
+  margin-right: 5%; }
 
 .blackCont {
   right: 0;
   overflow: hidden;
   position: absolute;
   z-index: -1;
-  margin-top: -35%; }
+  margin-top: -45%; }
 
 .black {
   border: 2px solid black;
-  width: 660px;
-  height: 600px;
+  width: 560px;
+  height: 500px;
   background: black; }
 
 .promise .wrapper {
@@ -356,7 +355,7 @@ h2 {
   padding: 40px; }
 
 .skillsIcons {
-  font-size: 4rem;
+  font-size: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,12 +404,9 @@ h2 {
   display: -ms-flexbox;
   display: flex; }
 
-.services {
-  margin: 13% 0; }
-
 .service {
   width: 50%;
-  padding: 60px; }
+  padding: 20px; }
 
 .servicesOuter {
   display: -webkit-box;
@@ -428,9 +424,6 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .coffee img {
-    margin-left: -5px;
-    overflow: hidden; }
 
 .servicesInner {
   display: -webkit-inline-box;
@@ -439,17 +432,22 @@ h2 {
   .servicesInner h3 {
     margin: 0;
     padding: 10px;
-    font-size: 2rem; }
+    font-size: 1.3rem; }
   .servicesInner i {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: 16px; }
 
 .latestWork {
+  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  .latestWork img {
+    width: 100%;
+    height: 100%; }
 
 .latestWork .wrapper {
+  border: 5px dashed green;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -462,31 +460,80 @@ h2 {
           align-items: center; }
   .latestWork .wrapper h2 {
     margin-bottom: 5%;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px; }
 
 .latestWorkOuter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 75%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  border: 3px solid blue;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px; }
 
-.piece {
-  border: 2px red; }
-  .piece img {
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    padding: 0 20px; }
+.piece1 {
+  border: 2px dotted tomato;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; }
 
-.piece1 .piece2 {
-  width: 60%;
-  height: 300px; }
+.piece2 {
+  border: 2px dotted tomato;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2; }
+
+.piece3 {
+  border: 2px dotted tomato;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1; }
+
+.piece4 {
+  border: 2px dotted tomato;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3; }
+
+.piece5 {
+  border: 2px dotted tomato;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2; }
+
+.piece6 {
+  border: 2px dotted tomato;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2; }
+
+.piece7 {
+  border: 2px dotted tomato;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 4; }
+
+.piece8 {
+  border: 2px dotted tomato;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3; }
+
+.piece9 {
+  border: 2px dotted tomato;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 3; }
 
 .contact .wrapper {
   display: -webkit-box;
@@ -504,11 +551,11 @@ h2 {
           align-items: center; }
 
 input {
-  padding: 15px;
-  width: 400px;
-  margin: 30px;
-  border: 3px solid darkgrey;
-  font-size: 1.3rem; }
+  padding: 10px;
+  width: 275px;
+  margin: 0 15px 0 0px;
+  border: 2px solid darkgrey;
+  font-size: 0.9rem; }
   input:focus {
     border: 3px solid black;
     outline: none;
@@ -520,11 +567,14 @@ input {
     -webkit-box-shadow: none;
             box-shadow: none; }
 
+.email {
+  margin: 0; }
+
 textarea {
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   padding: 20px 15px;
-  margin: 30px;
-  border: 3px solid darkgrey; }
+  margin-top: 15px;
+  border: 2px solid darkgrey; }
   textarea:focus {
     border: 3px solid black;
     outline: none;
@@ -537,7 +587,8 @@ textarea {
             box-shadow: none; }
 
 .submitEmail {
-  margin: 0 auto;
+  margin-top: 15px;
+  width: 100%;
   color: white;
   background: darkgrey;
   border: 2px solid darkgrey;
@@ -546,11 +597,11 @@ textarea {
 .contact h1 {
   margin: 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 3rem; }
+  font-size: 2.5rem; }
 
 .contact h3 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 0 0 0 15px; }
 
 .contact p {
@@ -569,8 +620,7 @@ form {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 50px; }
+          flex-direction: column; }
 
 .contactInfo {
   display: -webkit-box;
@@ -616,11 +666,20 @@ form {
   -ms-flex-line-pack: center;
       align-content: center;
   font-family: "Raleway", sans-serif;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 form {
   font-family: "Raleway", sans-serif;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
+
+footer .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 footer {
   display: -webkit-box;
@@ -632,7 +691,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 300px;
+  height: 25vh;
   background: darkgrey;
   margin-top: 10%;
   -webkit-box-orient: vertical;
@@ -640,17 +699,17 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column; }
   footer p {
-    margin: 45px; }
+    margin-bottom: 40px; }
 
-footer .wrapper {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  width: 25%; }
+.footerIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .icon {
-  border: 2px solid #515151;
   border-radius: 50%;
   padding: 15px;
   display: -webkit-box;
@@ -662,7 +721,8 @@ footer .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #515151; }
+  background: #515151;
+  margin: 7px; }
 
 .fixedButton {
   display: -webkit-box;

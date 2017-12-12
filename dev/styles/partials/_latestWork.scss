@@ -1,9 +1,15 @@
 
 .latestWork{
+    border: 2px solid red;
     display: flex;
+        img{
+            width: 100%;
+            height: 100%;
+        }
 }
 
 .latestWork .wrapper{
+    border: 5px dashed green;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -16,23 +22,82 @@
 }
 
 .latestWorkOuter{
-    display: flex;
-    flex-wrap: wrap;
-    width: 75%;
-    justify-content: center;
-}
-.piece{
-    border: 2px red;
-        img{
-            // border: 2px solid blue;
-            -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-            padding: 0 20px;
-        }
+    border: 3px solid blue;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    
+    
 }
 
-.piece1 .piece2{
-    // border: 2px solid blue;
-    width: 60%;
-    height: 300px;
+
+.piece1 {
+    border: 2px dotted tomato;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
+
+.piece2 {
+    border: 2px dotted tomato;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.piece3 {
+    border: 2px dotted tomato;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.piece4 {
+    border: 2px dotted tomato;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.piece5 {
+    border: 2px dotted tomato;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.piece6 {
+    border: 2px dotted tomato;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.piece7 {
+    border: 2px dotted tomato;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.piece8 {
+    border: 2px dotted tomato;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.piece9 {
+    border: 2px dotted tomato;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
