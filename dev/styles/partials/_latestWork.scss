@@ -22,7 +22,7 @@
 }
 
 .latestWorkOuter{
-    border: 3px solid blue;
+    // border: 3px solid blue;
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
@@ -34,26 +34,32 @@
 
 
 .piece1 {
-    border: 2px dotted tomato;
+    // border: 2px dotted tomato;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+        
 }
 
 .piece2 {
-    border: 2px dotted tomato;
+    border: 5px solid darkgrey;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 .piece3 {
-    border: 2px dotted tomato;
+    border: 5px solid cyan;
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
+        p{
+            margin: auto;
+            text-align: center;
+            padding: 50px 15px;
+        }
 }
 .piece4 {
     border: 2px dotted tomato;
