@@ -14,6 +14,10 @@
     <!-- devicon -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+    <!-- michalsnik -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="public/styles/style.css">
     <title>Eileen Choi</title>
 </head>
@@ -25,16 +29,16 @@
                 <img src="../../assets/lightbulbWhite2.png" alt="">
             </div>
             <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#latestWork">Latest Works</a></li>
-                <li><a href="#services">What I Do</a></li>
-                <li><a href="#letsTalk">Let's Talk!</a></li>
+                <li><a class="animLink" href="#contact">Contact</a></li>
+                <li><a class="animLink" href="#latestWork">Work</a></li>
+                <li><a class="animLink" href="#services">What I Do</a></li>
+                <li><a class="animLink" href="#letsTalk">Let's Talk!</a></li>
             </ul>
         </div>
         <div class="headerContent">
-            <h2>Hi, I'm Eileen</h2>
-            <h1>Web Creator and Developer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia temporibus ex unde ipsum dolore tempora doloremque repudiandae architecto deserunt corrupti nam ut asperiores ratione culpa, consequuntur ab magni harum quidem.</p>
+            <h2>Nice to meet you, I'm Eileen Choi-</h2>
+            <h1>Web Developer</h1>
+            <p>I am a freelance web and software developer. What does that mean, exactly? It means I work for you, creating beautiful and interactive websites for your business. It also means I get to work with anyone who needs a developer. Start-ups, enterprise level organizations, businesses big and small. Anyone.</p>
             <a href="#contact"><button>Get in Touch</button></a>
         </div> <!--headerContent-->  
     </div> <!--wrapper-->
@@ -52,7 +56,7 @@
             </div>
             <div class="promise promise3">
                 <h3>Let's talk dollars and cents.</h3>
-                <p>Investing in your business only makes sense if you get a return. I will provide clear metrics to help you understand the impact that your website makes with your clients and customers. After all, we're both in this to make money, not spend it.</p>
+                <p>Investing in your business only makes sense if you get a return. I'm here to help you understand the impact that your website makes with your clients and customers. After all, we're both in this to make money, not spend it.</p>
             </div>
             <div class="promise promise 4">
                 <h3>Your happiness matters.</h3>
@@ -69,18 +73,22 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio illum laboriosam qui similique debitis beatae icessitatibus dolore labore id.</p>
                 <a href="#contact"><button>Get In Touch</button></a>
             </div> <!--intro-->
-            <img src= "assets/womanBG.jpg" alt="dark black and white photo of woman with her legs crossed in a chair">
+            <img src= "../../assets/business.jpg" alt="picture of lightbulb on its side on top of a chalkboard">
         </div> <!--wrapper-->
         <div class="blackCont">
             <div class="black">
             </div>
-        </div> <!--blackCont--> 
+        </div> 
     </section> <!--aboutMe-->
 
     <section class="services" id="services">
             <div class="coffee">
                 <div class="coffeeImg">
-                    <img src="../../assets/coffee2.jpg" alt="">
+                    <img src="../../assets/laptop.jpg" alt="">
+                </div>
+                <div class="blackCont2">
+                    <div class="black2">
+                    </div>
                 </div>
                 <div class="servicesOuter">
                     <div class="service webDev">
@@ -115,62 +123,6 @@
             </div><!-- coffee -->
     </section> <!--services-->
 
-    <section class="latestWork" id="latestWork">
-        <div class="wrapper">
-            <h2>Latest Work</h2>
-            <div class="latestWorkOuter">
-
-                <div class="piece piece1 data-tilt">  
-                    <a href="http://www.eileenchoi.com/coursea">
-                       <img src="../../assets/project2-screenshot.png" alt="screenshot of header of coursea webpage">
-                    </a>                      
-                </div>
-                <div class="piece piece2">
-                    <a href="http://www.eileenchoi.com/coursea">
-                        <img src="../../assets/project2-screenshot2.png" alt="">
-                    </a>
-                </div>
-                <div class="piece piece3">
-                    <a href="http://www.eileenchoi.com/coursea">
-                        <p>Fully responsive psd conversion using HTML5, CSS, and Jquery</p>
-                    </a>
-                </div>
-                <div class="piece piece4">
-                    <a href="http://eileen.choi/monopoly">
-                    <p>Fully responsive web app, using original design. Powered
-                        by Vanilla Javascript, HTML5, CSS3 and Jquery.
-                    </p>
-                    </a>
-                </div>
-                <div class="piece piece5">
-                    <img src="../../assets/monopoly-ph2.png" alt="">
-                    <a href="#"></a>
-                </div>
-                <div class="piece piece6">
-                    <img src="../../assets/monopoly-PH.png" alt="">
-                    <a href="http://eileen.choi/monopoly"></a>
-                </div>
-                <div class="piece piece7">
-                    <a href="#">
-                        <p>Fully responsive web app, with integrated Google Auto-complete, and geo-location functionality. Driven by Google Places
-                            API and Meetups API. Powered by React, Javascript, HTML5, CSS 3. Managed with Git and Gulp. Design and styling guidelines
-                            provided by agency.</p>
-                            <p class="tiny">Collaborative effort with Yvonne Huynh and Barnabus Chun.</p>
-                    </a>
-                </div>
-                <div class="piece piece8">
-                    <img src="../../assets/dandelion.jpg" alt="">
-                    <a href="#"></a>          
-                </div>
-                <div class="piece piece9">
-                    <a href="#">
-                    <img src="../../assets/project7-PH.png" alt="">
-                    </a>
-                </div>
-            </div> <!--latestWorkOuter-->
-        </div> <!--wrapper-->
-    </section>
-
     <section class="skills">
         <div class="wrapper">
             <div class="skillsInner">
@@ -188,10 +140,99 @@
                     <i class="devicon-jquery-plain"></i>
                     <i class="devicon-babel-plain"></i>
                     <!-- <i class="devicon-bootstrap-plain"></i> -->
-                </div><!--skillsInner-->
-            </div><!--skillsIcons-->
-        </div> <!--wrapper-->
-    </section> <!--skills-->
+                </div>
+                <!--skillsInner-->
+            </div>
+            <!--skillsIcons-->
+        </div>
+        <!--wrapper-->
+    </section>
+    <!--skills-->
+
+    <section class="latestWork" id="latestWork">
+        <div class="wrapper">
+            <h2>Latest Work</h2>
+                <div class="piece">
+                    <div class="imgCont">
+                        <img src="../../assets/coursea-desktop-sized.png" alt="screenshot of coursea site set in a mock laptop image">
+                    </div>
+                    <div class="pieceText">
+                        <h3>PSD Conversion for Coursea</h3>
+                        <p>Design was provided as PSD, with style guidelines. Already have a design in mind for your next website? Great! Pixel perfect design conversions are my speciality. </p>
+                        <h4>Built with HTML5, CSS3, Sass</h4>
+                        <div class="links">
+                            <a href="http://eileenchoi.com/coursea"><button>View Live</button></a>
+                            <a href="#"><button>Github</button></a>
+                        </div>
+                    </div>
+                </div> <!--piece-->
+    
+       
+            <div class="latestWorkOuter2">
+                <div class="piece piece2">
+                    <div class="pieceText2">
+                        <h3>Don't Feel Like Going to Work Today?</h3>
+                        <p>This web app is a great little way to get out of work...or waste time at work if you can't get out of it!</p>
+                        <h4>Powered by Javascript, HTML5, CSS3, and Sass</h4>
+                        <div class="links">
+                            <a href="http://eileenchoi.com/coursea"><button>View Live</button></a>
+                            <a href="#"><button>Github</button></a>
+                        </div>
+                    </div><!--pieceText2-->
+                        <div class="imgCont">
+                            <img src="../../assets/monopoly-laptop.png" alt="screenshot of monopoly app in laptop">
+                        </div>
+                    </div>
+                </div><!--latestWorkOuter-->
+
+            <div class="latestWorkOuter">
+                <div class="piece">
+                    <div class="imgCont">
+                        <img src="../../assets/meetups-desktop-sized.png" alt="screenshot of meetups app in desktop graphic">
+                    </div>
+                        <div class="pieceText">
+                            <h3>For the World Travellers and Friend Makers</h3>
+                            <p>I love coding and I love travelling. A globetrotting life can be a bit lonely sometimes though, so it's important to make
+                                time to meet new friends! This Meetup & Eat app is perfect for checking out local Meetups anywhere in the world, and
+                                more importantly where the closest restaurants are!</p>
+                                <h4>Powered by React, Javascript, Axios, HTML5, Sass and CSS3</h4>
+                        <p class="tiny">Collaboration with Yvonne Huynh and Barnabus Chun. Design and Style guide provided by Agency</p>
+                        <div class="links">
+                            <a href="http://eileenchoi.com/coursea">
+                                <button>View Live</button>
+                            </a>
+                            <a href="#">
+                                <button>Github</button>
+                            </a>
+                        </div>
+                    </div><!--pieceText-->
+                </div>
+            </div><!--latestWorkOuter-->
+            
+            <div class="latestWorkOuter2">
+                <div class="piece">
+                    <div class="pieceText2">
+                        <h3>Cloudy with a chance of sweater weather!</h3>
+                        <p>If you're like me, you always forget to check the temps every day-- who has time for that? This handy little app won't bother you with silly numbers like Farenheit or Celsius, it'll give you the important stuff! Let the Weather Wear app tell you what to wear...and what to bring for later!</p>
+                        <h4>Powered by Javascript, Firebase, HTML5, Sass and CSS3</h4>
+                        <div class="links">
+                            <a href="http://eileenchoi.com/coursea">
+                                <button>View Live</button>
+                            </a>
+                            <a href="#">
+                                <button>Github</button>
+                            </a>
+                        </div>
+                    </div><!--pieceText2-->
+                    <div class="imgCont">
+                        <img src="../../assets/weather-laptop-sized.png" alt="screenshot of weather app in laptop graphic">
+                    </div>
+                </div>
+                </div> <!--latestWorkOuter-->
+            </div> <!--wrapper-->
+        </div><!--latestWorkOuter-->
+    </section>
+
 
     <section class="contact" id="contact">
         <div class="wrapper">
@@ -255,8 +296,6 @@
     
     <script src="public/scripts/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <!-- <script src="public/scripts/tilt.js"></script> -->
-     <!--tilt.js-->
-    <!-- <script src="tilt.js"></script> -->
+    
 </body>
 </html>

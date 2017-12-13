@@ -23,18 +23,26 @@
             border: 1px solid black;
             margin-top: 50px;
             width: 30%;
-            padding: 15px;
+            padding: 10px;
                 &:active{
                     background-color: black;
                     color: white;
                 }
+                &:hover{
+                background-color: black;
+                color: white;
+                transition: ease-in-out 0.3s;
             }
+            }
+            
+        
        
 }
 
 .aboutMe{
+    // border: 2px solid blue;
     img{
-        margin-right: 5%;
+        margin-left: 10%;
         }
 }
     
@@ -46,12 +54,29 @@
     overflow: hidden;
     position: absolute;
     z-index: -1;
-    margin-top: -45%;
+    margin-top: -31%;
 }
 .black{
     border: 2px solid black;
     width: 560px;
+    height: 325px;
+    background: black;
+    
+}
+
+
+.blackCont2{
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    margin-top: -3%;
+}
+.black2{
+    border: 2px solid black;
+    width: 325px;
     height: 500px;
     background: black;
     
 }
+
