@@ -11,3 +11,8 @@ $('a[href^="#"]').on('click', function (event) {
         }, 1000);
     }
 });
+
+$(function () {
+
+    AOS.init();
+});

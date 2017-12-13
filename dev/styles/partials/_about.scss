@@ -43,6 +43,7 @@
     // border: 2px solid blue;
     img{
         margin-left: 10%;
+        margin-right: -9%;
         }
 }
     
@@ -54,13 +55,13 @@
     overflow: hidden;
     position: absolute;
     z-index: -1;
-    margin-top: -31%;
+    margin-top: -35%;
 }
 .black{
-    border: 2px solid black;
+    // border: 2px solid #D4AF37;
     width: 560px;
-    height: 325px;
-    background: black;
+    height: 350px;
+    background:black;
     
 }
 
@@ -72,11 +73,11 @@
     z-index: -1;
     margin-top: -3%;
 }
-.black2{
-    border: 2px solid black;
-    width: 325px;
-    height: 500px;
-    background: black;
+// .black2{
+//     border: 2px solid #D4AF37;
+//     width: 560px;
+//     height: 425px;
+//     background: none;
     
-}
+// }
 

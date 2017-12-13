@@ -7,7 +7,7 @@ footer .wrapper{
 }
 
 footer{
- 
+    
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,4 +38,35 @@ footer{
     background: #515151;
     margin: 7px;
 
+}
+
+// .fa:hover{
+//     color: white;
+// }
+// .linkedin:hover{
+//     background-color: #0082c2;
+// }
+
+// .twitter{
+//     background-color: #009df6;
+// }
+
+a:hover{
+    .twitter{
+    background-color: #009df6;
+}
+    .linkedin{
+        background-color: #0082c2;
+    }
+    .skype{
+        background: linear-gradient(315deg,#8FD3C5,#1686D9);
+    }
+
+    .instagram{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+    .fa-twitter, .fa-linkedin, .fa-skype, .fa-instagram{
+        color: white;
+    }
+    
 }
