@@ -8,6 +8,8 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:400,700" rel="stylesheet">
     
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
     <!-- fontawesome -->
     <script src="https://use.fontawesome.com/8f2f6a4255.js"></script>
 
@@ -23,64 +25,126 @@
 </head>
 
 <header id="home">
-    <div class="wrapper">
-        <div class="navBar">
-            <div class="logo">
-                <img src="../../assets/lightbulbWhite2.png" alt="">
+    <!-- HAMBURGER -->
+    <div class="container">
+        <input id="toggle" type="checkbox">
+        <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+        <label class="toggle-container" for="toggle">
+            <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+            <span class="button button-toggle"></span>
+        </label>
+    
+        <!-- The nav menu -->
+        <nav class="nav">
+            <a class="nav-item" href="">Contact</a>
+            <a class="nav-item" href="">Portfolio</a>
+            <a class="nav-item" href="">What I Do</a>
+            <a class="nav-item" href="">Let's Talk</a>
+        </nav>
+    
+        <!-- Just dummy content -->
+        <section class="dummy-content">
+            <div class="circle"></div>
+            <div class="text">
+                <span></span>
+                <span></span>
             </div>
-            <ul>
-                <li><a class="animLink" href="#contact">Contact</a></li>
-                <li><a class="animLink" href="#latestWork">Portfolio</a></li>
-                <li><a class="animLink" href="#services">What I Do</a></li>
-                <li><a class="animLink" href="#letsTalk">Let's Talk!</a></li>
-            </ul>
+            <div class="square-top"></div>
+            <div class="square-behind"></div>
+        </section>
+    </div> <!-- container -->
+
+    <div class="wrapper">
+        <!-- header animation -->
+        <div class="Iam">
+            <div class="animCont">
+                <div class="name">
+                    <p>Hi, my name is Eileen and...</p>
+                </div>  
+                <!-- <h3 class="choi">Hello,</h3> -->
+                <p>I am</p>
+            </div>   
+            
+            <b>
+                <div class="innerIam">
+                    a Front-End Developer
+                    <br /> a Web Designer
+                    <br /> a Content Creator
+                    <br /> your Business Partner
+                    <br /> here for You.
+                </div>
+            </b>         
         </div>
-        <div class="headerContent">
-            <h2>Nice to meet you, I'm Eileen Choi-</h2>
-            <h1>Web Developer</h1>
-            <p>I am a freelance web and software developer. What does that mean, exactly? It means I work for you, creating beautiful and interactive websites for your business. It also means I get to work with anyone who needs a developer. Start-ups, enterprise level organizations, businesses big and small. Anyone.</p>
-            <a href="#contact"><button>Get in Touch</button></a>
-        </div> <!--headerContent-->  
+
+        <div class="navBar">
+            <ul>
+                <li>
+                    <a class="animLink" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="animLink" href="#latestWork">Portfolio</a>
+                </li>
+                <li>
+                    <a class="animLink" href="#services">What I Do</a>
+                </li>
+                <li>
+                    <a class="animLink" href="#letsTalk">Let's Talk!</a>
+                </li>
+            </ul>
+        </div> <!-- navbar -->
+        <div class="down">
+            <a href="#letsTalk">
+                <div class="backUp">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </div>
+            </a>
+        </div>
     </div> <!--wrapper-->
 </header>
+
 <body>
     <section class="letsTalk" id="letsTalk">
         <div class="wrapper">
             <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="100" class="promise promise1">
-                <h3>Let's talk about you.</h3>
-                <p>After all, you poured your heart and soul into your business. The more I get to know, the better I can help craft the first impression you want to make.</p>
+                <div class="promise-inner">
+                    <h3>Let's talk about you.</h3>
+                    <p>You poured your heart and soul into your business. I want to know everything about it! The more I get to know, the better I can help craft the first impression you want to make.</p>
+                </div>
             </div>
             <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="150" class="promise promise2">
-                <h3>Your brand is your business</h3>
-                <p>What do you want to say about your business? I will not just be your expert, I will be your partner. Together, we will create the right message for your business to help you grow.</p>
+                <div class="promise-inner">
+                    <h3>Your brand is your business</h3>
+                    <p>What do you want to say about your business? I will not just be your expert, I will be your partner. Together, we will create the right message for your business to help you grow.</p>
+                </div>
             </div>
             <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="200" class="promise promise3">
-                <h3>Let's talk dollars and cents.</h3>
-                <p>Investing in your business only makes sense if you get a return. I'm here to help you understand the impact that your website makes with your clients and customers. After all, we're both in this to make money, not spend it.</p>
+                <div class="promise-inner">
+                    <h3>Let's talk dollars and cents.</h3>
+                    <p>Investing in your business only makes sense if you get a return. I'm here to help you understand the impact that your website makes with your clients and customers. After all, we're both in this to make money, not spend it.</p>
+                </div>
             </div>
             <div data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="250" class="promise promise 4">
-                <h3>Your happiness matters.</h3>
-                <p>We are partners, until you don't want to be. If at any point you are unhappy, I will make sure to do what is necessary to turn that around! That's a promise.</p>
+                <div class="promise-inner">
+                    <h3>Your happiness matters.</h3>
+                    <p>We are partners, until you don't want to be. If at any point you are unhappy, I will make sure to do what is necessary to turn that around! That's a promise.</p>
+                </div>
             </div>
         </div>
     </section>
     
     <section class="aboutMe">       
-        <div class="wrapper">
+        <!-- <div class="wrapper"> -->
             <div class="intro">
                 <h2>You build your business. I build your first impression.</h2>
                
-                <p>But who am I, you ask? I am a web and software developer currently based out of Cork, Ireland. I truly love problem-solving, which is something I get to do all the time as a developer. I have a background in advertising, SEO, branding and sales, which is important because it means I GET where you're coming from and where you're trying to go. </p>
+                <p>But who am I, you ask? I am a web and software developer currently based out of Cork, Ireland. I have a background in advertising, SEO, branding and sales, which is important because it means I GET where you're coming from and where you're trying to go. </p>
                 <p> Now that you're ready to show the world what you're made of, let me create a website that's effective, impactful and most
-                    importently engaging enough to keep people coming back.</p>
-                <a href="#contact"><button>Get In Touch</button></a>
+                    importantly engaging enough to keep people coming back.</p>
+                <!-- <a href="#contact"><button>Get In Touch</button></a> -->
             </div> <!--intro-->
-            <img src= "../../assets/business.jpg" alt="picture of lightbulb on its side on top of a chalkboard">
-        </div> <!--wrapper-->
-        <div class="blackCont">
-            <div class="black">
-            </div>
-        </div> 
+            <div class="intro_img">
+                <img src="assets/business.jpg" alt="picture of lightbulb on its side on top of a chalkboard">
+            </div>    
     </section> <!--aboutMe-->
 
     <section class="services" id="services">
@@ -98,14 +162,14 @@
                             <i class="fa fa-laptop" aria-hidden="true"></i>
                             <h3>Web Development</h3>
                         </div>
-                        <p>Fully responsive websites, cross-browser functionality, optimized to perform on any platform. Need more complex features? Not a problem, I can use Javascript, React and Jquery to make sure everything works and works well.</p>
+                        <p> My build tools include Shopify, Wordpress, HTMl5/CSS, ES6, React, Bootstrap and more! Simple or complex, I can build a site tailored for you. Did I mention that your website will also be fully responsive for the best mobile experience for your users?</p>
                     </div> <!--service webDev-->
                     <div class="service webDesign">
                         <div class="servicesInner">
                             <i class="fa fa-paint-brush" aria-hidden="true"></i>
                             <h3>Web Design</h3>
                         </div>
-                        <p>Beautiful, intuitive designs for single or multi-page websites. Wordpress or outside designs are welcome. Have an idea in mind? Custom design services are also available.</p>
+                        <p>Design elements are key to ensuring your future clients have a great user experience when they visit your site. Your site won't just be a pretty face, it will have features and elements that will keep the user engaged and interested in what you have to show them.</p>
                     </div>
                     <div class="service branding">
                         <div class="servicesInner">
@@ -119,16 +183,15 @@
                             <i class="fa fa-handshake-o" aria-hidden="true"></i>
                             <h3>E-Commerce</h3>
                         </div>
-                        <p>Managing e-commerce is a must in today's fast moving markets. Setting up your site to handle your e-commerce needs is my specialty. Whether you take 5 online orders a day, or 500, I'll make sure your site can handle it.</p>
+                        <p>Managing e-commerce is a must in today's fast moving markets. Setting up your site to handle your e-commerce needs is my specialty. Whether you take 5 online orders a day, or 500, I'll make sure your site can handle it using the tried and true Shopify platform.</p>
                     </div> <!--service-->
                 </div> <!--services-->
             </div><!-- coffee -->
     </section> <!--services-->
 
     <section class="skills">
-        <div class="wrapper">
+        <!-- <div class="wrapper"> -->
             <div class="skillsInner">
-                <!-- <h3>I can also work with...</h3> -->
                 <div class="skillsIcons">
                     <i class="devicon-css3-plain"></i>
                     <i class="devicon-html5-plain"></i>
@@ -141,13 +204,12 @@
                     <i class="devicon-sass-original"></i>
                     <i class="devicon-jquery-plain"></i>
                     <i class="devicon-babel-plain"></i>
-                    <!-- <i class="devicon-bootstrap-plain"></i> -->
+                    <i class="devicon-bootstrap-plain"></i>
                 </div>
                 <!--skillsInner-->
             </div>
             <!--skillsIcons-->
-        </div>
-        <!--wrapper-->
+        <!-- </div> --><!--wrapper-->
     </section>
     <!--skills-->
 
@@ -218,7 +280,7 @@
                         <p>If you're like me, you always forget to check the temps every day-- who has time for that? This handy little app won't bother you with silly numbers like Farenheit or Celsius, it'll give you the important stuff! Let the Weather Wear app tell you what to wear...and what to bring for later!</p>
                         <h4>Powered by Javascript, Firebase, HTML5, Sass and CSS3</h4>
                         <div class="links">
-                            <a href="http://eileenchoi.com/coursea">
+                            <a href="http://eileenchoi.com/weather">
                                 <button>View Live</button>
                             </a>
                             <a href="#">
@@ -247,10 +309,11 @@
                 <textarea name="message" id="userMessage" cols="30" rows="10" placeholder="Message"></textarea>
                 <input class="submitEmail" name="submitEmail" type="submit" value="Send Message">
             </form>
-            <div class="contactInfo">
+
+            <!-- contact icons -->
+            <!-- <div class="contactInfo">
                 <div class="info mobile">
                     <i class="fa fa-phone" aria-hidden="true"></i>
-
                     <p>647-705-7628</p>
                 </div>
                 <div class="info email">
@@ -267,7 +330,7 @@
                     <p>2-2 Florence Wyle Lane</p>
                     <p>Toronto, ON</p>
                     <p>Canada</p>
-                </div>
+                </div> -->
             </div> <!--contactInfo-->
             <a href="#home">
                 <div class="backUp">
@@ -302,7 +365,7 @@
                     </div>
                 </a>
             </div> <!--footerIcons-->
-            <p>&copy Copyright 2017 Eileen Choi</p>
+            <p>&copy Copyright 2017 eileenchoi.com</p>
         </div> <!--wrapper-->      
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

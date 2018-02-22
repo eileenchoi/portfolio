@@ -7,13 +7,14 @@ footer .wrapper{
 }
 
 footer{
-    
+    border: 2px solid blue;
     display:flex;
     justify-content: flex-end;
     align-items: center;
     height: 25vh;
     background: darkgrey;
-    margin-top: 10%;
+    margin-top: 5%;
+    padding-top: 1%;
     flex-direction: column;
         p{
             margin-bottom: 40px;
